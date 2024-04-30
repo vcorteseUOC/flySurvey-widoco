@@ -16,6 +16,25 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -53,7 +72,6 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"/>
         <rdfs:comment>Aircraft asocciated with a trip and evaluated by the traveller.</rdfs:comment>
@@ -66,7 +84,6 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline"/>
         <rdfs:comment>Company to be rated on the survey.</rdfs:comment>
@@ -79,7 +96,6 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate"/>
         <rdfs:comment>FLighting date.</rdfs:comment>
@@ -92,7 +108,6 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination"/>
         <rdfs:comment>Destiny airport.</rdfs:comment>
@@ -105,7 +120,6 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin"/>
         <rdfs:comment>Origin airport.</rdfs:comment>
@@ -126,16 +140,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo -->
-
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"/>
-        <rdfs:label>Trip Info</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -148,33 +152,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo -->
-
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"/>
-        <rdfs:comment>Aircraft information and details data properties.</rdfs:comment>
-        <rdfs:label>AirCraft Info</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo -->
-
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
-        <rdfs:comment>Airport Information and details data properties.</rdfs:comment>
-        <rdfs:label>Airport Info</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity -->
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Airport city,</rdfs:comment>
@@ -187,7 +168,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Comment or review summary on submited survey.</rdfs:comment>
@@ -212,9 +192,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Airport country,</rdfs:comment>
@@ -223,16 +200,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Aiport country location.</rdfs:comment>
+        <rdfs:label>Airport Country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating -->
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>Max raiting value for allowed on the survey or on a survey category.</rdfs:comment>
-        <rdfs:label>max rating</rdfs:label>
+        <rdfs:label>survey max rating</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -241,7 +228,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Traveller name</rdfs:comment>
@@ -254,7 +240,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Airport formal name.</rdfs:comment>
@@ -279,12 +264,10 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>Overall rating of the submited survey or a specific survey category.</rdfs:comment>
-        <rdfs:label>rating</rdfs:label>
+        <rdfs:label>survey rating</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -293,7 +276,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Submited Survey title.</rdfs:comment>
@@ -306,7 +288,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>Business Reason flag data property.</rdfs:comment>
@@ -331,7 +312,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>Family reason flag data property.</rdfs:comment>
@@ -344,7 +324,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>Leisure flag data property.</rdfs:comment>
@@ -357,7 +336,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>Data flag for recommend the trip.</rdfs:comment>
@@ -382,7 +360,6 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Aircraft manufacturing company.</rdfs:comment>
@@ -395,34 +372,10 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Aircraft model.</rdfs:comment>
         <rdfs:label>model</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo -->
-
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
-        <rdfs:comment>Traveller Info</rdfs:comment>
-        <rdfs:label>Traveller Info</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo -->
-
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
-        <rdfs:comment>Survey Iinformation and details</rdfs:comment>
-        <rdfs:label>Survey Info</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -445,6 +398,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft">
         <rdfs:comment>Aircraft information.</rdfs:comment>
         <rdfs:label>Aircraft</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Aircraft</rdfs:sameAs>
     </owl:Class>
     
 
@@ -455,6 +409,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline">
         <rdfs:comment>Airline information.</rdfs:comment>
         <rdfs:label>Airline</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Airline</rdfs:sameAs>
     </owl:Class>
     
 
@@ -465,6 +420,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport">
         <rdfs:comment>Airport Information. Inferred tool decides if is a subinstance of Destination or Origin.</rdfs:comment>
         <rdfs:label>Airport</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Airport</rdfs:sameAs>
     </owl:Class>
     
 
@@ -487,7 +443,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
         <rdfs:comment>Cabin Staff Survey Category.</rdfs:comment>
-        <rdfs:label>Cabin Staff</rdfs:label>
+        <rdfs:label>Cabin Crew</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Cabin_Crew</rdfs:sameAs>
     </owl:Class>
     
 
@@ -517,15 +474,9 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <rdfs:comment>Destination airport of a trip.</rdfs:comment>
-        <rdfs:label>Destination</rdfs:label>
+        <rdfs:label>Destination Airport</rdfs:label>
     </owl:Class>
     
 
@@ -574,10 +525,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages -->
+    <!-- http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages">
+    <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
         <rdfs:comment>Food and beverages Survey Category.</rdfs:comment>
         <rdfs:label>Food and beverages</rdfs:label>
@@ -623,8 +574,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"/>
+        <rdfs:comment>Traveller with Leisure purposes.</rdfs:comment>
         <rdfs:label>Leisure</rdfs:label>
-        <rdfs:label>Traveller with Leisure purposes.</rdfs:label>
     </owl:Class>
     
 
@@ -633,15 +584,9 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <rdfs:comment>Origin airport of a trip.</rdfs:comment>
-        <rdfs:label>Origin</rdfs:label>
+        <rdfs:label>Origin Airport</rdfs:label>
     </owl:Class>
     
 
@@ -773,7 +718,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport">
         <rdf:type rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <hasCity>Barcelona</hasCity>
-        <hasCountry>Spain</hasCountry>
+        <hasCountryLocation>Spain</hasCountryLocation>
         <hasOfficialName>Josep Tarradellas Barcelona-El Prat</hasOfficialName>
         <rdfs:comment>Barcelona&apos;s airport individual for inference stage.</rdfs:comment>
         <rdfs:label>Barcelona&apos;s airport</rdfs:label>
@@ -800,7 +745,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport">
         <rdf:type rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"/>
         <hasCity>Malaga</hasCity>
-        <hasCountry>Spain</hasCountry>
+        <hasCountryLocation>Spain</hasCountryLocation>
         <hasOfficialName>Malaga-Costa del Sol</hasOfficialName>
         <rdfs:comment>Malaga&apos;s airport instance for inference stage.</rdfs:comment>
         <rdfs:label>Malaga&apos;s airport</rdfs:label>
@@ -842,8 +787,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review">
         <rdf:type rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"/>
-        <hasMaxRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</hasMaxRating>
-        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</hasRating>
         <rdfs:comment>Cabin Staff instance for inference stage.</rdfs:comment>
         <rdfs:label>Cabin Staff Survey</rdfs:label>
     </owl:NamedIndividual>

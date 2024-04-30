@@ -1,24 +1,6 @@
 [ {
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination"
-  } ]
-}, {
-  "@id" : "_:genid2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin"
-  } ]
-}, {
-  "@id" : "_:genid3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"
   } ],
@@ -30,7 +12,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid4",
+  "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -43,7 +25,7 @@
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft"
   } ]
 }, {
-  "@id" : "_:genid5",
+  "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -68,6 +50,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/Aircraft"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline",
@@ -77,6 +62,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/Airline"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport",
@@ -86,6 +74,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/Airport"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport",
@@ -93,7 +84,7 @@
   "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity" : [ {
     "@value" : "Barcelona"
   } ],
-  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry" : [ {
+  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation" : [ {
     "@value" : "Spain"
   } ],
   "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName" : [ {
@@ -148,7 +139,10 @@
     "@value" : "Cabin Staff Survey Category."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Cabin Staff"
+    "@value" : "Cabin Crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Cabin_Crew"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
@@ -181,13 +175,10 @@
     "@value" : "Destination airport of a trip."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Destination"
+    "@value" : "Destination Airport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy",
@@ -238,7 +229,7 @@
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages",
+  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Food and beverages Survey Category."
@@ -288,10 +279,11 @@
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Traveller with Leisure purposes."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Leisure"
-  }, {
-    "@value" : "Traveller with Leisure purposes."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"
@@ -302,7 +294,7 @@
   "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity" : [ {
     "@value" : "Malaga"
   } ],
-  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry" : [ {
+  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation" : [ {
     "@value" : "Spain"
   } ],
   "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName" : [ {
@@ -324,13 +316,10 @@
     "@value" : "Origin airport of a trip."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Origin"
+    "@value" : "Origin Airport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid2"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium",
@@ -405,7 +394,7 @@
     "@value" : "Survey"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid3"
+    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory",
@@ -435,7 +424,7 @@
     "@value" : "Trip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid4"
+    "@id" : "_:genid2"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#ValueForMoney",
@@ -480,40 +469,8 @@
     "@value" : "Victor Cortes"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Aircraft information and details data properties."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "AirCraft Info"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Airport Information and details data properties."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Airport Info"
-  } ]
-}, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "10"
-  } ],
-  "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "10"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff"
   }, {
@@ -601,9 +558,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline",
@@ -619,9 +573,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity",
@@ -637,9 +588,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment",
@@ -655,9 +603,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCompanyName",
@@ -681,8 +626,6 @@
     "@value" : "Airport country,"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
-  }, {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -690,11 +633,21 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Aiport country location."
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"
-  }, {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airport Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown",
@@ -710,9 +663,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny",
@@ -728,9 +678,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating",
@@ -740,17 +687,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"
-  }, {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "max rating"
+    "@value" : "survey max rating"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName",
@@ -766,9 +708,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName",
@@ -784,9 +723,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin",
@@ -802,9 +738,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasPrice",
@@ -828,18 +761,13 @@
     "@value" : "Overall rating of the submited survey or a specific survey category."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"
-  }, {
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "rating"
+    "@value" : "survey rating"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle",
@@ -855,9 +783,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness",
@@ -873,9 +798,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown",
@@ -906,9 +828,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure",
@@ -924,9 +843,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended",
@@ -942,9 +858,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
@@ -975,9 +888,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model",
@@ -993,21 +903,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Traveller Info"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Traveller Info"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#survey1",
@@ -1064,20 +959,6 @@
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Survey Iinformation and details"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"
-  }, {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Survey Info"
-  } ]
-}, {
   "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#trip1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft" : [ {
@@ -1109,12 +990,6 @@
     "@value" : "Trip"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Trip Info"
-  } ]
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]

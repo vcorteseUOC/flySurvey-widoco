@@ -10,6 +10,14 @@
                                                                         owl:versionIRI <http://www.semanticweb.org/swb/ontologies/2024/3/fly-survey-ontology/1.0.0> .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
@@ -31,7 +39,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft
 :hasAircraft rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf :tripInfo ;
              rdfs:domain :Trip ;
              rdfs:range :Aircraft ;
              rdfs:comment "Aircraft asocciated with a trip and evaluated by the traveller." ;
@@ -40,7 +47,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline
 :hasAirline rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :tripInfo ;
             rdfs:domain :Trip ;
             rdfs:range :Airline ;
             rdfs:comment "Company to be rated on the survey." ;
@@ -49,7 +55,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown
 :hasDateFlown rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf :tripInfo ;
               rdfs:domain :Trip ;
               rdfs:range :FlightDate ;
               rdfs:comment "FLighting date." ;
@@ -58,7 +63,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny
 :hasDestiny rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :tripInfo ;
             rdfs:domain :Trip ;
             rdfs:range :Destination ;
             rdfs:comment "Destiny airport." ;
@@ -67,7 +71,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin
 :hasOrigin rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf :tripInfo ;
            rdfs:domain :Trip ;
            rdfs:range :Origin ;
            rdfs:comment "Origin airport." ;
@@ -82,33 +85,12 @@
                 rdfs:label "survey category" .
 
 
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo
-:tripInfo rdf:type owl:ObjectProperty ;
-          rdfs:domain :Trip ;
-          rdfs:label "Trip Info" .
-
-
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo
-:airCraftInfo rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Aircraft ;
-              rdfs:comment "Aircraft information and details data properties." ;
-              rdfs:label "AirCraft Info" .
-
-
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo
-:airportInfo rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Airport ;
-             rdfs:comment "Airport Information and details data properties." ;
-             rdfs:label "Airport Info" .
-
-
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity
 :hasCity rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf :airportInfo ;
          rdfs:domain :Airport ;
          rdfs:range xsd:string ;
          rdfs:comment "Airport city," ;
@@ -117,7 +99,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment
 :hasComment rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :surveyInfo ;
             rdfs:domain :Survey ;
             rdfs:range xsd:string ;
             rdfs:comment "Comment or review summary on submited survey." ;
@@ -134,28 +115,30 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry
 :hasCountry rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :airportInfo ,
-                               :personalInfo ;
-            rdfs:domain :Airport ,
-                        :Traveller ;
+            rdfs:domain :Traveller ;
             rdfs:range xsd:string ;
             rdfs:comment "Airport country," ;
             rdfs:label "country" .
 
 
+###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation
+:hasCountryLocation rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Airport ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Aiport country location." ;
+                    rdfs:label "Airport Country" .
+
+
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating
 :hasMaxRating rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf :surveyInfo ;
-              rdfs:domain :Survey ,
-                          :SurveyCategory ;
+              rdfs:domain :Survey ;
               rdfs:range xsd:decimal ;
               rdfs:comment "Max raiting value for allowed on the survey or on a survey category." ;
-              rdfs:label "max rating" .
+              rdfs:label "survey max rating" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName
 :hasName rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf :personalInfo ;
          rdfs:domain :Traveller ;
          rdfs:range xsd:string ;
          rdfs:comment "Traveller name" ;
@@ -164,7 +147,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName
 :hasOfficialName rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :airportInfo ;
                  rdfs:domain :Airport ;
                  rdfs:range xsd:string ;
                  rdfs:comment "Airport formal name." ;
@@ -181,17 +163,14 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating
 :hasRating rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :surveyInfo ;
-           rdfs:domain :Survey ,
-                       :SurveyCategory ;
+           rdfs:domain :SurveyCategory ;
            rdfs:range xsd:decimal ;
            rdfs:comment "Overall rating of the submited survey or a specific survey category." ;
-           rdfs:label "rating" .
+           rdfs:label "survey rating" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle
 :hasTitle rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :surveyInfo ;
           rdfs:domain :Survey ;
           rdfs:range xsd:string ;
           rdfs:comment "Submited Survey title." ;
@@ -200,7 +179,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness
 :isBusiness rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf :personalInfo ;
             rdfs:domain :Traveller ;
             rdfs:range xsd:boolean ;
             rdfs:comment "Business Reason flag data property." ;
@@ -217,7 +195,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily
 :isFamily rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :personalInfo ;
           rdfs:domain :Traveller ;
           rdfs:range xsd:boolean ;
           rdfs:comment "Family reason flag data property." ;
@@ -226,7 +203,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure
 :isLeisure rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :personalInfo ;
            rdfs:domain :Traveller ;
            rdfs:range xsd:boolean ;
            rdfs:comment "Leisure flag data property." ;
@@ -235,7 +211,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended
 :isRecommended rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf :surveyInfo ;
                rdfs:domain :Survey ;
                rdfs:range xsd:boolean ;
                rdfs:comment "Data flag for recommend the trip." ;
@@ -252,7 +227,6 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker
 :maker rdf:type owl:DatatypeProperty ;
-       rdfs:subPropertyOf :airCraftInfo ;
        rdfs:domain :Aircraft ;
        rdfs:range xsd:string ;
        rdfs:comment "Aircraft manufacturing company." ;
@@ -261,26 +235,10 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model
 :model rdf:type owl:DatatypeProperty ;
-       rdfs:subPropertyOf :airCraftInfo ;
        rdfs:domain :Aircraft ;
        rdfs:range xsd:string ;
        rdfs:comment "Aircraft model." ;
        rdfs:label "model" .
-
-
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo
-:personalInfo rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Traveller ;
-              rdfs:comment "Traveller Info" ;
-              rdfs:label "Traveller Info" .
-
-
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo
-:surveyInfo rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Survey ,
-                        :SurveyCategory ;
-            rdfs:comment "Survey Iinformation and details" ;
-            rdfs:label "Survey Info" .
 
 
 #################################################################
@@ -290,19 +248,22 @@
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft
 :Aircraft rdf:type owl:Class ;
           rdfs:comment "Aircraft information." ;
-          rdfs:label "Aircraft" .
+          rdfs:label "Aircraft" ;
+          rdfs:sameAs "https://dbpedia.org/ontology/Aircraft" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline
 :Airline rdf:type owl:Class ;
          rdfs:comment "Airline information." ;
-         rdfs:label "Airline" .
+         rdfs:label "Airline" ;
+         rdfs:sameAs "https://dbpedia.org/ontology/Airline" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport
 :Airport rdf:type owl:Class ;
          rdfs:comment "Airport Information. Inferred tool decides if is a subinstance of Destination or Origin." ;
-         rdfs:label "Airport" .
+         rdfs:label "Airport" ;
+         rdfs:sameAs "https://dbpedia.org/ontology/Airport" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Business
@@ -317,7 +278,8 @@
 :CabinStaff rdf:type owl:Class ;
             rdfs:subClassOf :SurveyCategory ;
             rdfs:comment "Cabin Staff Survey Category." ;
-            rdfs:label "Cabin Staff" .
+            rdfs:label "Cabin Crew" ;
+            rdfs:sameAs "https://dbpedia.org/page/Cabin_Crew" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Couple
@@ -335,13 +297,9 @@
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination
 :Destination rdf:type owl:Class ;
-             owl:equivalentClass [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasDestiny ;
-                                   owl:someValuesFrom :Destination
-                                 ] ;
              rdfs:subClassOf :Airport ;
              rdfs:comment "Destination airport of a trip." ;
-             rdfs:label "Destination" .
+             rdfs:label "Destination Airport" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy
@@ -372,11 +330,11 @@
             rdfs:label "Flight Date" .
 
 
-###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages
-:FoodAndBeverages rdf:type owl:Class ;
-                  rdfs:subClassOf :SurveyCategory ;
-                  rdfs:comment "Food and beverages Survey Category." ;
-                  rdfs:label "Food and beverages" .
+###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries
+:Groceries rdf:type owl:Class ;
+           rdfs:subClassOf :SurveyCategory ;
+           rdfs:comment "Food and beverages Survey Category." ;
+           rdfs:label "Food and beverages" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Ground
@@ -403,19 +361,15 @@
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure
 :Leisure rdf:type owl:Class ;
          rdfs:subClassOf :Traveller ;
-         rdfs:label "Leisure" ,
-                    "Traveller with Leisure purposes." .
+         rdfs:comment "Traveller with Leisure purposes." ;
+         rdfs:label "Leisure" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin
 :Origin rdf:type owl:Class ;
-        owl:equivalentClass [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasOrigin ;
-                              owl:someValuesFrom :Origin
-                            ] ;
         rdfs:subClassOf :Airport ;
         rdfs:comment "Origin airport of a trip." ;
-        rdfs:label "Origin" .
+        rdfs:label "Origin Airport" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium
@@ -495,7 +449,7 @@
 :Barcelona_Airport rdf:type owl:NamedIndividual ,
                             :Airport ;
                    :hasCity "Barcelona" ;
-                   :hasCountry "Spain" ;
+                   :hasCountryLocation "Spain" ;
                    :hasOfficialName "Josep Tarradellas Barcelona-El Prat" ;
                    rdfs:comment "Barcelona's airport individual for inference stage." ;
                    rdfs:label "Barcelona's airport" .
@@ -514,7 +468,7 @@
 :Malaga_Airport rdf:type owl:NamedIndividual ,
                          :Airport ;
                 :hasCity "Malaga" ;
-                :hasCountry "Spain" ;
+                :hasCountryLocation "Spain" ;
                 :hasOfficialName "Malaga-Costa del Sol" ;
                 rdfs:comment "Malaga's airport instance for inference stage." ;
                 rdfs:label "Malaga's airport" .
@@ -544,8 +498,6 @@
 :cabinStaff_review rdf:type owl:NamedIndividual ,
                             :CabinStaff ,
                             :SurveyCategory ;
-                   :hasMaxRating 10 ;
-                   :hasRating 10 ;
                    rdfs:comment "Cabin Staff instance for inference stage." ;
                    rdfs:label "Cabin Staff Survey" .
 

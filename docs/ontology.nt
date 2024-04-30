@@ -4,6 +4,18 @@
 # 
 # #################################################################
 # #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
 # #    Object Properties
 # #
 # #################################################################
@@ -25,7 +37,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft asocciated with a trip and evaluated by the traveller." .
@@ -33,7 +44,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline> <http://www.w3.org/2000/01/rdf-schema#comment> "Company to be rated on the survey." .
@@ -41,7 +51,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#comment> "FLighting date." .
@@ -49,7 +58,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> <http://www.w3.org/2000/01/rdf-schema#comment> "Destiny airport." .
@@ -57,7 +65,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origin airport." .
@@ -70,11 +77,6 @@
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific category to be rated." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyCategory> <http://www.w3.org/2000/01/rdf-schema#label> "survey category" .
 # 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Trip Info" .
-# 
 # 
 # 
 # #################################################################
@@ -84,21 +86,8 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft information and details data properties." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> <http://www.w3.org/2000/01/rdf-schema#label> "AirCraft Info" .
-# 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport Information and details data properties." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Airport Info" .
-# 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport city," .
@@ -106,7 +95,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Comment or review summary on submited survey." .
@@ -121,26 +109,27 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport country," .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
 # 
+# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Aiport country location." .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Airport Country" .
+# 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Max raiting value for allowed on the survey or on a survey category." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#label> "max rating" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#label> "survey max rating" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Traveller name" .
@@ -148,7 +137,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport formal name." .
@@ -163,16 +151,13 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Overall rating of the submited survey or a specific survey category." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "rating" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "survey rating" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Submited Survey title." .
@@ -180,7 +165,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness> <http://www.w3.org/2000/01/rdf-schema#comment> "Business Reason flag data property." .
@@ -195,7 +179,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/2000/01/rdf-schema#comment> "Family reason flag data property." .
@@ -203,7 +186,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure> <http://www.w3.org/2000/01/rdf-schema#comment> "Leisure flag data property." .
@@ -211,7 +193,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended> <http://www.w3.org/2000/01/rdf-schema#comment> "Data flag for recommend the trip." .
@@ -226,7 +207,6 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft manufacturing company." .
@@ -234,24 +214,10 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft model." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model> <http://www.w3.org/2000/01/rdf-schema#label> "model" .
-# 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Traveller Info" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Traveller Info" .
-# 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Survey Iinformation and details" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Survey Info" .
 # 
 # 
 # 
@@ -266,16 +232,19 @@
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft information." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Aircraft" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "Airline information." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Airline" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Airline" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "Airport Information. Inferred tool decides if is a subinstance of Destination or Origin." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Airport" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Business
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -288,7 +257,8 @@
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#comment> "Cabin Staff Survey Category." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Cabin Staff" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Cabin Crew" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Cabin_Crew" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Couple
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Couple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -303,13 +273,9 @@
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
-_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/2000/01/rdf-schema#comment> "Destination airport of a trip." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination Airport" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -335,11 +301,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of the trip." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Date" .
 # 
-# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#comment> "Food and beverages Survey Category." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#label> "Food and beverages" .
+# http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries> <http://www.w3.org/2000/01/rdf-schema#comment> "Food and beverages Survey Category." .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries> <http://www.w3.org/2000/01/rdf-schema#label> "Food and beverages" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Ground
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -362,18 +328,14 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "Traveller with Leisure purposes." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Leisure" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Traveller with Leisure purposes." .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
-_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origin airport of a trip." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin Airport" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -401,11 +363,11 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
-_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "Survey information." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Survey" .
 # 
@@ -421,11 +383,11 @@ _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
-_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
-_:genid4 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> .
+_:genid2 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> <http://www.w3.org/2000/01/rdf-schema#comment> "Trip information and details." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip> <http://www.w3.org/2000/01/rdf-schema#label> "Trip" .
 # 
@@ -448,7 +410,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> "Barcelona" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> "Spain" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> "Spain" .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> "Josep Tarradellas Barcelona-El Prat" .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "Barcelona's airport individual for inference stage." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Barcelona_Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Barcelona's airport" .
@@ -465,7 +427,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity> "Malaga" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry> "Spain" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation> "Spain" .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName> "Malaga-Costa del Sol" .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "Malaga's airport instance for inference stage." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Malaga_Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Malaga's airport" .
@@ -492,8 +454,6 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating> "10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating> "10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.w3.org/2000/01/rdf-schema#comment> "Cabin Staff instance for inference stage." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#cabinStaff_review> <http://www.w3.org/2000/01/rdf-schema#label> "Cabin Staff Survey" .
 # 
@@ -546,16 +506,16 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid3 <http://www.w3.org/2002/07/owl#members> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FirstClass> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FirstClass> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
