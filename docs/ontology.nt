@@ -12,9 +12,6 @@
 # http://www.w3.org/2000/01/rdf-schema#sameAs
 <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://www.w3.org/2002/07/owl#sameAs
-<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # 
 # 
 # #################################################################
@@ -205,7 +202,7 @@
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown> <http://www.w3.org/2000/01/rdf-schema#comment> "Data flown data property." .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown> <http://www.w3.org/2000/01/rdf-schema#label> "date flown" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown> <http://www.w3.org/2000/01/rdf-schema#label> "is flight date" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -268,7 +265,7 @@
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Aircraft information." .
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
-<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/ontology/Aircraft" .
+<http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Aircraft" .
 # 
 # http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline
 <http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

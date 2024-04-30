@@ -63,7 +63,7 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Aircraft"
   } ],
-  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
     "@value" : "https://dbpedia.org/ontology/Aircraft"
   } ]
 }, {
@@ -821,7 +821,7 @@
     "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "date flown"
+    "@value" : "is flight date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -1003,8 +1003,5 @@
   } ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]

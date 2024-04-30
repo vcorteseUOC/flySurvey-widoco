@@ -16,10 +16,10 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "14",
@@ -49,7 +49,7 @@
     "id" : "35",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "31",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -115,7 +115,7 @@
     "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "28",
@@ -203,6 +203,19 @@
     "id" : "4",
     "superClasses" : [ "5" ]
   }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Origin",
+      "undefined" : "Origin Airport"
+    },
+    "comment" : {
+      "undefined" : "Origin airport of a trip."
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Seat",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
     "instances" : 0,
@@ -216,19 +229,6 @@
     },
     "id" : "5",
     "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Origin",
-      "undefined" : "Origin Airport"
-    },
-    "comment" : {
-      "undefined" : "Origin airport of a trip."
-    },
-    "id" : "12",
-    "superClasses" : [ "13" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -320,7 +320,7 @@
     "comment" : {
       "undefined" : "Trip information and details."
     },
-    "id" : "31"
+    "id" : "33"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -627,7 +627,7 @@
     "comment" : {
       "undefined" : "Aircraft information."
     },
-    "id" : "33"
+    "id" : "31"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -998,7 +998,7 @@
     "range" : "29",
     "label" : {
       "IRI-based" : "isDateFlown",
-      "undefined" : "date flown"
+      "undefined" : "is flight date"
     },
     "domain" : "28",
     "comment" : {
@@ -1007,20 +1007,6 @@
     "attributes" : [ "functional", "datatype" ],
     "id" : "27"
   }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "isVerified",
-      "undefined" : "trip verification"
-    },
-    "domain" : "31",
-    "comment" : {
-      "undefined" : "Data property to verify if the traveller was a customer of the flight."
-    },
-    "attributes" : [ "functional", "datatype" ],
-    "id" : "30"
-  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
     "range" : "15",
@@ -1028,9 +1014,23 @@
       "IRI-based" : "maker",
       "undefined" : "maker"
     },
-    "domain" : "33",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Aircraft manufacturing company."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "isVerified",
+      "undefined" : "trip verification"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Data property to verify if the traveller was a customer of the flight."
     },
     "attributes" : [ "functional", "datatype" ],
     "id" : "32"
@@ -1042,7 +1042,7 @@
       "IRI-based" : "model",
       "undefined" : "model"
     },
-    "domain" : "33",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Aircraft model."
     },
@@ -1238,16 +1238,30 @@
       "IRI-based" : "hasOrigin",
       "undefined" : "origin"
     },
-    "domain" : "31",
+    "domain" : "33",
     "comment" : {
       "undefined" : "Origin airport."
     },
     "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "78"
   }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
     "range" : "31",
+    "label" : {
+      "IRI-based" : "hasAircraft",
+      "undefined" : "aircraft"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
+    },
+    "attributes" : [ "object", "asymmetric", "functional" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "range" : "33",
     "label" : {
       "IRI-based" : "evaluatedTrip",
       "undefined" : "trip evaluated"
@@ -1255,20 +1269,6 @@
     "domain" : "26",
     "comment" : {
       "undefined" : "Trip instance to be evaluated."
-    },
-    "attributes" : [ "object", "asymmetric", "functional" ],
-    "id" : "79"
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "33",
-    "label" : {
-      "IRI-based" : "hasAircraft",
-      "undefined" : "aircraft"
-    },
-    "domain" : "31",
-    "comment" : {
-      "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
     },
     "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "80"
@@ -1280,7 +1280,7 @@
       "IRI-based" : "hasDateFlown",
       "undefined" : "date flown"
     },
-    "domain" : "31",
+    "domain" : "33",
     "comment" : {
       "undefined" : "FLighting date."
     },
@@ -1375,7 +1375,7 @@
       "IRI-based" : "hasAirline",
       "undefined" : "airline"
     },
-    "domain" : "31",
+    "domain" : "33",
     "comment" : {
       "undefined" : "Company to be rated on the survey."
     },
@@ -1427,7 +1427,7 @@
       "IRI-based" : "hasDestiny",
       "undefined" : "destiny"
     },
-    "domain" : "31",
+    "domain" : "33",
     "comment" : {
       "undefined" : "Destiny airport."
     },

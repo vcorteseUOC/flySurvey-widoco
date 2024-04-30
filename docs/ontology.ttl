@@ -17,10 +17,6 @@
 rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
-###  http://www.w3.org/2002/07/owl#sameAs
-owl:sameAs rdf:type owl:AnnotationProperty .
-
-
 #################################################################
 #    Object Properties
 #################################################################
@@ -221,7 +217,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
              rdfs:domain :Date ;
              rdfs:range xsd:boolean ;
              rdfs:comment "Data flown data property." ;
-             rdfs:label "date flown" .
+             rdfs:label "is flight date" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily
@@ -286,7 +282,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :Aircraft rdf:type owl:Class ;
           rdfs:comment "Aircraft information." ;
           rdfs:label "Aircraft" ;
-          owl:sameAs "https://dbpedia.org/ontology/Aircraft" .
+          rdfs:sameAs "https://dbpedia.org/ontology/Aircraft" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline

@@ -32,13 +32,6 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#sameAs -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -337,7 +330,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment>Data flown data property.</rdfs:comment>
-        <rdfs:label>date flown</rdfs:label>
+        <rdfs:label>is flight date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -438,7 +431,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft">
         <rdfs:comment>Aircraft information.</rdfs:comment>
         <rdfs:label>Aircraft</rdfs:label>
-        <owl:sameAs>https://dbpedia.org/ontology/Aircraft</owl:sameAs>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Aircraft</rdfs:sameAs>
     </owl:Class>
     
 
