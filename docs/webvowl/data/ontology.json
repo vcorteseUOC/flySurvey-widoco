@@ -1242,22 +1242,8 @@
     "comment" : {
       "undefined" : "Origin airport."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "78"
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "33",
-    "label" : {
-      "IRI-based" : "hasAircraft",
-      "undefined" : "aircraft"
-    },
-    "domain" : "31",
-    "comment" : {
-      "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
-    },
-    "attributes" : [ "object", "functional", "asymmetric" ],
-    "id" : "79"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -1270,7 +1256,21 @@
     "comment" : {
       "undefined" : "Trip instance to be evaluated."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasAircraft",
+      "undefined" : "aircraft"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
+    },
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "80"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown",
@@ -1284,7 +1284,7 @@
     "comment" : {
       "undefined" : "FLighting date."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "81"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily",
@@ -1365,7 +1365,7 @@
     "comment" : {
       "undefined" : "Traveller instance who filled the survey."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "91"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline",
@@ -1379,7 +1379,7 @@
     "comment" : {
       "undefined" : "Company to be rated on the survey."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "92"
   }, {
     "range" : "17",
@@ -1431,7 +1431,7 @@
     "comment" : {
       "undefined" : "Destiny airport."
     },
-    "attributes" : [ "object", "functional", "asymmetric" ],
+    "attributes" : [ "object", "asymmetric", "functional" ],
     "id" : "97"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment",

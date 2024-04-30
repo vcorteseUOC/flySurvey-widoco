@@ -56,7 +56,6 @@ function loadTOC(){
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
       $("#introduction").load("sections/introduction-en.html"); 
       $("#nstable").load("sections/ns-en.html"); 
       $("#overview").load("sections/overview-en.html"); 
@@ -116,8 +115,7 @@ function loadTOC(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div>     <div id="abstract"></div>
-<div id="toc"></div>     <div id="introduction"></div>
+</div><div id="toc"></div>     <div id="introduction"></div>
 	  <div id="nstable"></div>
      <div id="overview"></div>
      <div id="description"></div>
