@@ -17,12 +17,18 @@
 rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Object Properties
 #################################################################
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedBy
-:evaluatedBy rdf:type owl:ObjectProperty ;
+:evaluatedBy rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ,
+                      owl:AsymmetricProperty ;
              rdfs:domain :Survey ;
              rdfs:range :Traveller ;
              rdfs:comment "Traveller instance who filled the survey." ;
@@ -30,7 +36,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip
-:evaluatedTrip rdf:type owl:ObjectProperty ;
+:evaluatedTrip rdf:type owl:ObjectProperty ,
+                        owl:FunctionalProperty ,
+                        owl:AsymmetricProperty ;
                rdfs:domain :Survey ;
                rdfs:range :Trip ;
                rdfs:comment "Trip instance to be evaluated." ;
@@ -38,7 +46,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft
-:hasAircraft rdf:type owl:ObjectProperty ;
+:hasAircraft rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ,
+                      owl:AsymmetricProperty ;
              rdfs:domain :Trip ;
              rdfs:range :Aircraft ;
              rdfs:comment "Aircraft asocciated with a trip and evaluated by the traveller." ;
@@ -46,7 +56,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline
-:hasAirline rdf:type owl:ObjectProperty ;
+:hasAirline rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ,
+                     owl:AsymmetricProperty ;
             rdfs:domain :Trip ;
             rdfs:range :Airline ;
             rdfs:comment "Company to be rated on the survey." ;
@@ -54,7 +66,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown
-:hasDateFlown rdf:type owl:ObjectProperty ;
+:hasDateFlown rdf:type owl:ObjectProperty ,
+                       owl:FunctionalProperty ,
+                       owl:AsymmetricProperty ;
               rdfs:domain :Trip ;
               rdfs:range :FlightDate ;
               rdfs:comment "FLighting date." ;
@@ -62,7 +76,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny
-:hasDestiny rdf:type owl:ObjectProperty ;
+:hasDestiny rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ,
+                     owl:AsymmetricProperty ;
             rdfs:domain :Trip ;
             rdfs:range :Destination ;
             rdfs:comment "Destiny airport." ;
@@ -70,7 +86,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin
-:hasOrigin rdf:type owl:ObjectProperty ;
+:hasOrigin rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ,
+                    owl:AsymmetricProperty ;
            rdfs:domain :Trip ;
            rdfs:range :Origin ;
            rdfs:comment "Origin airport." ;
@@ -90,7 +108,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity
-:hasCity rdf:type owl:DatatypeProperty ;
+:hasCity rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain :Airport ;
          rdfs:range xsd:string ;
          rdfs:comment "Airport city," ;
@@ -98,7 +117,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment
-:hasComment rdf:type owl:DatatypeProperty ;
+:hasComment rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Survey ;
             rdfs:range xsd:string ;
             rdfs:comment "Comment or review summary on submited survey." ;
@@ -106,7 +126,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCompanyName
-:hasCompanyName rdf:type owl:DatatypeProperty ;
+:hasCompanyName rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
                 rdfs:domain :Airline ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Airline company name." ;
@@ -114,7 +135,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry
-:hasCountry rdf:type owl:DatatypeProperty ;
+:hasCountry rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Traveller ;
             rdfs:range xsd:string ;
             rdfs:comment "Airport country," ;
@@ -122,7 +144,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation
-:hasCountryLocation rdf:type owl:DatatypeProperty ;
+:hasCountryLocation rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
                     rdfs:domain :Airport ;
                     rdfs:range xsd:string ;
                     rdfs:comment "Aiport country location." ;
@@ -130,7 +153,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating
-:hasMaxRating rdf:type owl:DatatypeProperty ;
+:hasMaxRating rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
               rdfs:domain :Survey ;
               rdfs:range xsd:decimal ;
               rdfs:comment "Max raiting value for allowed on the survey or on a survey category." ;
@@ -138,7 +162,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName
-:hasName rdf:type owl:DatatypeProperty ;
+:hasName rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain :Traveller ;
          rdfs:range xsd:string ;
          rdfs:comment "Traveller name" ;
@@ -146,7 +171,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName
-:hasOfficialName rdf:type owl:DatatypeProperty ;
+:hasOfficialName rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
                  rdfs:domain :Airport ;
                  rdfs:range xsd:string ;
                  rdfs:comment "Airport formal name." ;
@@ -154,7 +180,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasPrice
-:hasPrice rdf:type owl:DatatypeProperty ;
+:hasPrice rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
           rdfs:domain :Seat ;
           rdfs:range xsd:decimal ;
           rdfs:comment "Seat price data property." ;
@@ -162,7 +189,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating
-:hasRating rdf:type owl:DatatypeProperty ;
+:hasRating rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
            rdfs:domain :SurveyCategory ;
            rdfs:range xsd:decimal ;
            rdfs:comment "Overall rating of the submited survey or a specific survey category." ;
@@ -170,7 +198,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle
-:hasTitle rdf:type owl:DatatypeProperty ;
+:hasTitle rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
           rdfs:domain :Survey ;
           rdfs:range xsd:string ;
           rdfs:comment "Submited Survey title." ;
@@ -178,7 +207,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness
-:isBusiness rdf:type owl:DatatypeProperty ;
+:isBusiness rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Traveller ;
             rdfs:range xsd:boolean ;
             rdfs:comment "Business Reason flag data property." ;
@@ -186,7 +216,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown
-:isDateFlown rdf:type owl:DatatypeProperty ;
+:isDateFlown rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
              rdfs:domain :Date ;
              rdfs:range xsd:boolean ;
              rdfs:comment "Data flown data property." ;
@@ -194,7 +225,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily
-:isFamily rdf:type owl:DatatypeProperty ;
+:isFamily rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
           rdfs:domain :Traveller ;
           rdfs:range xsd:boolean ;
           rdfs:comment "Family reason flag data property." ;
@@ -202,7 +234,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure
-:isLeisure rdf:type owl:DatatypeProperty ;
+:isLeisure rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
            rdfs:domain :Traveller ;
            rdfs:range xsd:boolean ;
            rdfs:comment "Leisure flag data property." ;
@@ -210,7 +243,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended
-:isRecommended rdf:type owl:DatatypeProperty ;
+:isRecommended rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
                rdfs:domain :Survey ;
                rdfs:range xsd:boolean ;
                rdfs:comment "Data flag for recommend the trip." ;
@@ -218,7 +252,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified
-:isVerified rdf:type owl:DatatypeProperty ;
+:isVerified rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Trip ;
             rdfs:range xsd:boolean ;
             rdfs:comment "Data property to verify if the traveller was a customer of the flight." ;
@@ -226,7 +261,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker
-:maker rdf:type owl:DatatypeProperty ;
+:maker rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
        rdfs:domain :Aircraft ;
        rdfs:range xsd:string ;
        rdfs:comment "Aircraft manufacturing company." ;
@@ -234,7 +270,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model
-:model rdf:type owl:DatatypeProperty ;
+:model rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
        rdfs:domain :Aircraft ;
        rdfs:range xsd:string ;
        rdfs:comment "Aircraft model." ;
@@ -249,7 +286,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :Aircraft rdf:type owl:Class ;
           rdfs:comment "Aircraft information." ;
           rdfs:label "Aircraft" ;
-          rdfs:sameAs "https://dbpedia.org/ontology/Aircraft" .
+          owl:sameAs "https://dbpedia.org/ontology/Aircraft" .
 
 
 ###  http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline
@@ -428,7 +465,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
       rdfs:subClassOf [ rdf:type owl:Restriction ;
                         owl:onProperty :hasAircraft ;
                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass :Trip
+                        owl:onClass :Aircraft
                       ] ;
       rdfs:comment "Trip information and details." ;
       rdfs:label "Trip" .
@@ -549,6 +586,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 #    General axioms
 #################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Couple
+                :Family
+                :Solo
+              )
+] .
+
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Economy

@@ -13,14 +13,26 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "5",
     "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "23",
     "type" : "rdfs:Datatype"
@@ -28,121 +40,109 @@
     "id" : "24",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "27",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "16",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "38",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "34",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
     "id" : "42",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "41",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "32",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "45",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "46",
+    "id" : "43",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "44",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "47",
+    "id" : "45",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "19",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "58",
-    "type" : "owl:Class"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "64",
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "86",
+    "id" : "90",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "82",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "87",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "75",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "72",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -200,22 +200,8 @@
     "comment" : {
       "undefined" : "Premium fare."
     },
-    "id" : "8",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Seat",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Seat",
-      "undefined" : "Seat"
-    },
-    "subClasses" : [ "15", "16", "8" ],
-    "comment" : {
-      "undefined" : "Seat types that the user selects and rates on a survey."
-    },
-    "id" : "9",
-    "superClasses" : [ "7" ]
+    "id" : "4",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -227,14 +213,56 @@
     "comment" : {
       "undefined" : "Origin airport of a trip."
     },
-    "id" : "11",
-    "superClasses" : [ "12" ]
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Seat",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seat",
+      "undefined" : "Seat"
+    },
+    "subClasses" : [ "11", "9", "4" ],
+    "comment" : {
+      "undefined" : "Seat types that the user selects and rates on a survey."
+    },
+    "id" : "5",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "23",
+    "id" : "14",
     "label" : {
       "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -242,13 +270,6 @@
     "id" : "24",
     "label" : {
       "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "27",
-    "label" : {
-      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FirstClass",
@@ -261,21 +282,21 @@
     "comment" : {
       "undefined" : "First class fare."
     },
-    "id" : "16",
-    "superClasses" : [ "9" ]
+    "id" : "9",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
+    "id" : "34",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
+    "id" : "35",
     "label" : {
-      "IRI-based" : "boolean"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip",
@@ -299,11 +320,11 @@
     "comment" : {
       "undefined" : "Trip information and details."
     },
-    "id" : "34"
+    "id" : "31"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
+    "id" : "29",
     "label" : {
       "IRI-based" : "boolean"
     }
@@ -318,40 +339,40 @@
     "comment" : {
       "undefined" : "Economy fare."
     },
-    "id" : "15",
-    "superClasses" : [ "9" ]
+    "id" : "11",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "42",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "41",
+    "id" : "38",
     "label" : {
       "IRI-based" : "decimal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "32",
+    "id" : "42",
     "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
-    "label" : {
-      "IRI-based" : "boolean"
+      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "46",
+    "id" : "43",
     "label" : {
       "IRI-based" : "string"
     }
@@ -365,7 +386,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "47",
+    "id" : "45",
     "label" : {
       "IRI-based" : "string"
     }
@@ -377,12 +398,12 @@
       "IRI-based" : "Leisure",
       "undefined" : "Leisure"
     },
-    "subClasses" : [ "49", "50", "51" ],
+    "subClasses" : [ "47", "48", "49" ],
     "comment" : {
       "undefined" : "Traveller with Leisure purposes."
     },
-    "id" : "19",
-    "superClasses" : [ "20" ]
+    "id" : "17",
+    "superClasses" : [ "18" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Couple",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -394,8 +415,8 @@
     "comment" : {
       "undefined" : "Travellers couple."
     },
-    "id" : "49",
-    "superClasses" : [ "19" ]
+    "id" : "47",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -418,7 +439,7 @@
     "comment" : {
       "undefined" : "Survey information."
     },
-    "id" : "29"
+    "id" : "26"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#ValueForMoney",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -430,7 +451,7 @@
     "comment" : {
       "undefined" : "Value for money that the travellers could rate."
     },
-    "id" : "54",
+    "id" : "57",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Family",
@@ -443,8 +464,8 @@
     "comment" : {
       "undefined" : "Family travellers."
     },
-    "id" : "51",
-    "superClasses" : [ "19" ]
+    "id" : "49",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Internet",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -456,7 +477,7 @@
     "comment" : {
       "undefined" : "Internet and comunications Survey Category."
     },
-    "id" : "66",
+    "id" : "59",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller",
@@ -477,11 +498,11 @@
         "undefined" : "Victor Cortes"
       }
     } ],
-    "subClasses" : [ "26", "19" ],
+    "subClasses" : [ "20", "17" ],
     "comment" : {
       "undefined" : "Traveller information and details."
     },
-    "id" : "20"
+    "id" : "18"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -493,7 +514,7 @@
     "comment" : {
       "undefined" : "Food and beverages Survey Category."
     },
-    "id" : "58",
+    "id" : "52",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#InflightEntertainment",
@@ -519,8 +540,21 @@
     "comment" : {
       "undefined" : "Date when the user submits the survey."
     },
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "76",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightDate",
+      "undefined" : "Flight Date"
+    },
+    "comment" : {
+      "undefined" : "Date of the trip."
+    },
+    "id" : "74",
+    "superClasses" : [ "28" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -558,24 +592,11 @@
         "undefined" : "Malaga's airport"
       }
     } ],
-    "subClasses" : [ "14", "11" ],
+    "subClasses" : [ "72", "12" ],
     "comment" : {
       "undefined" : "Airport Information. Inferred tool decides if is a subinstance of Destination or Origin."
     },
-    "id" : "12"
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "FlightDate",
-      "undefined" : "Flight Date"
-    },
-    "comment" : {
-      "undefined" : "Date of the trip."
-    },
-    "id" : "71",
-    "superClasses" : [ "5" ]
+    "id" : "13"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -606,7 +627,7 @@
     "comment" : {
       "undefined" : "Aircraft information."
     },
-    "id" : "36"
+    "id" : "33"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -636,11 +657,11 @@
         "undefined" : "Date"
       }
     } ],
-    "subClasses" : [ "4", "71" ],
+    "subClasses" : [ "76", "74" ],
     "comment" : {
       "undefined" : "Date information. The inferred tool decides if is the flightDate or the Publish survey date."
     },
-    "id" : "5"
+    "id" : "28"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -671,7 +692,7 @@
     "comment" : {
       "undefined" : "Cabin Staff Survey Category."
     },
-    "id" : "68",
+    "id" : "61",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Business",
@@ -684,19 +705,19 @@
     "comment" : {
       "undefined" : "Traveller with business purposes."
     },
-    "id" : "26",
-    "superClasses" : [ "20" ]
+    "id" : "20",
+    "superClasses" : [ "18" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "64",
+    "id" : "67",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "86",
+    "id" : "90",
     "label" : {
       "IRI-based" : "string"
     }
@@ -706,27 +727,6 @@
     "id" : "2",
     "label" : {
       "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "82",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "75",
-    "label" : {
-      "IRI-based" : "decimal"
     }
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory",
@@ -747,7 +747,7 @@
         "undefined" : "Cabin Staff Survey"
       }
     } ],
-    "subClasses" : [ "54", "6", "68", "66", "9", "58", "56" ],
+    "subClasses" : [ "57", "6", "61", "59", "5", "52", "56" ],
     "comment" : {
       "undefined" : "Topic that the user could rates on a survey."
     },
@@ -763,8 +763,8 @@
     "comment" : {
       "undefined" : "Single traveller with leisure purpose."
     },
-    "id" : "50",
-    "superClasses" : [ "19" ]
+    "id" : "48",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -776,8 +776,8 @@
     "comment" : {
       "undefined" : "Destination airport of a trip."
     },
-    "id" : "14",
-    "superClasses" : [ "12" ]
+    "id" : "72",
+    "superClasses" : [ "13" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -786,82 +786,79 @@
     "id" : "3",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "10",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "13",
+    "id" : "16",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "17",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "18",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "21",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "22",
+    "id" : "19",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "25",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "28",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "31",
+    "id" : "27",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "33",
+    "id" : "30",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "35",
+    "id" : "32",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "39",
+    "id" : "36",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "40",
+    "id" : "37",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "43",
+    "id" : "41",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "48",
+    "id" : "46",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "52",
+    "id" : "50",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "55",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "57",
+    "id" : "58",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "59",
-    "type" : "owl:datatypeProperty"
   }, {
     "id" : "60",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "61",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "62",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "63",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "65",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "67",
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "69",
@@ -870,20 +867,17 @@
     "id" : "70",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "72",
+    "id" : "71",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "73",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "74",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "76",
-    "type" : "owl:objectProperty"
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "77",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "78",
     "type" : "owl:objectProperty"
@@ -892,42 +886,57 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "80",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "83",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "84",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "85",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "88",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "89",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "90",
     "type" : "owl:disjointWith"
   }, {
     "id" : "91",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "92",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "93",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "94",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
@@ -942,7 +951,7 @@
     "comment" : {
       "undefined" : "Airline company name."
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "0"
   }, {
     "range" : "5",
@@ -950,114 +959,99 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "3"
   }, {
-    "range" : "12",
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "5",
     "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
-    "range" : "12",
-    "domain" : "14",
+    "range" : "18",
+    "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "13"
+    "id" : "16"
   }, {
-    "range" : "9",
-    "domain" : "15",
+    "range" : "18",
+    "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "17"
-  }, {
-    "range" : "20",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "18"
-  }, {
-    "range" : "9",
-    "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "21"
-  }, {
-    "range" : "9",
-    "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "22"
-  }, {
-    "range" : "20",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "25"
+    "id" : "19"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "30",
+    "range" : "24",
     "label" : {
       "IRI-based" : "isRecommended",
       "undefined" : "recommended"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Data flag for recommend the trip."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "28"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "25"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "32",
+    "range" : "29",
     "label" : {
       "IRI-based" : "isDateFlown",
       "undefined" : "date flown"
     },
-    "domain" : "5",
+    "domain" : "28",
     "comment" : {
       "undefined" : "Data flown data property."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "31"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "27"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "24",
+    "range" : "23",
     "label" : {
       "IRI-based" : "isVerified",
       "undefined" : "trip verification"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Data property to verify if the traveller was a customer of the flight."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "33"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "30"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "23",
+    "range" : "15",
     "label" : {
       "IRI-based" : "maker",
       "undefined" : "maker"
     },
-    "domain" : "36",
+    "domain" : "33",
     "comment" : {
       "undefined" : "Aircraft manufacturing company."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "35"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "32"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "27",
+    "range" : "14",
     "label" : {
       "IRI-based" : "model",
       "undefined" : "model"
     },
-    "domain" : "36",
+    "domain" : "33",
     "comment" : {
       "undefined" : "Aircraft model."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "39"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "36"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "41",
+    "range" : "38",
     "label" : {
       "IRI-based" : "hasRating",
       "undefined" : "survey rating"
@@ -1066,22 +1060,22 @@
     "comment" : {
       "undefined" : "Overall rating of the submited survey or a specific survey category."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "40"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "37"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasPrice",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "44",
+    "range" : "42",
     "label" : {
       "IRI-based" : "hasPrice",
       "undefined" : "seat price"
     },
-    "domain" : "9",
+    "domain" : "5",
     "comment" : {
       "undefined" : "Seat price data property."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "43"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "41"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyCategory",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -1090,40 +1084,50 @@
       "IRI-based" : "surveyCategory",
       "undefined" : "survey category"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Specific category to be rated."
     },
     "attributes" : [ "object" ],
-    "id" : "48"
+    "id" : "46"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "46",
+    "range" : "40",
     "label" : {
       "IRI-based" : "hasName",
       "undefined" : "name"
     },
-    "domain" : "20",
+    "domain" : "18",
     "comment" : {
       "undefined" : "Traveller name"
     },
-    "attributes" : [ "datatype" ],
-    "id" : "52"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "50"
+  }, {
+    "range" : "7",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "7",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "37",
+    "range" : "21",
     "label" : {
       "IRI-based" : "isLeisure",
       "undefined" : "leisure reason"
     },
-    "domain" : "20",
+    "domain" : "18",
     "comment" : {
       "undefined" : "Leisure flag data property."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "53"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "54"
   }, {
     "range" : "7",
     "domain" : "56",
@@ -1131,218 +1135,238 @@
     "id" : "55"
   }, {
     "range" : "7",
-    "domain" : "58",
+    "domain" : "59",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
+    "id" : "58"
+  }, {
+    "range" : "7",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "42",
+    "range" : "35",
     "label" : {
       "IRI-based" : "hasTitle",
       "undefined" : "title"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Submited Survey title."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "59"
-  }, {
-    "range" : "7",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "62"
   }, {
     "range" : "7",
     "domain" : "6",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
+    "id" : "63"
   }, {
-    "range" : "7",
-    "domain" : "54",
+    "range" : "17",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
+    "id" : "64"
+  }, {
+    "range" : "17",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "64",
+    "range" : "67",
     "label" : {
       "IRI-based" : "hasCity",
       "undefined" : "city"
     },
-    "domain" : "12",
+    "domain" : "13",
     "comment" : {
       "undefined" : "Airport city,"
     },
-    "attributes" : [ "datatype" ],
-    "id" : "63"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "66"
   }, {
     "range" : "7",
-    "domain" : "66",
+    "domain" : "57",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "65"
+    "id" : "68"
   }, {
-    "range" : "7",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "67"
-  }, {
-    "range" : "19",
+    "range" : "17",
     "domain" : "49",
     "attributes" : [ "object", "anonymous" ],
     "id" : "69"
   }, {
-    "range" : "5",
-    "domain" : "71",
+    "range" : "13",
+    "domain" : "12",
     "attributes" : [ "object", "anonymous" ],
     "id" : "70"
   }, {
-    "range" : "19",
-    "domain" : "51",
+    "range" : "13",
+    "domain" : "72",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "72"
+    "id" : "71"
   }, {
-    "range" : "19",
-    "domain" : "50",
+    "range" : "28",
+    "domain" : "74",
     "attributes" : [ "object", "anonymous" ],
     "id" : "73"
   }, {
+    "range" : "28",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "75",
+    "range" : "44",
     "label" : {
       "IRI-based" : "hasMaxRating",
       "undefined" : "survey max rating"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Max raiting value for allowed on the survey or on a survey category."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "74"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "77"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "11",
+    "range" : "12",
     "label" : {
       "IRI-based" : "hasOrigin",
       "undefined" : "origin"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Origin airport."
     },
-    "attributes" : [ "object" ],
-    "id" : "76"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "78"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "36",
+    "range" : "33",
     "label" : {
       "IRI-based" : "hasAircraft",
       "undefined" : "aircraft"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
     },
-    "attributes" : [ "object" ],
-    "id" : "77"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "79"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "34",
+    "range" : "31",
     "label" : {
       "IRI-based" : "evaluatedTrip",
       "undefined" : "trip evaluated"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Trip instance to be evaluated."
     },
-    "attributes" : [ "object" ],
-    "id" : "78"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "80"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "71",
+    "range" : "74",
     "label" : {
       "IRI-based" : "hasDateFlown",
       "undefined" : "date flown"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "FLighting date."
     },
-    "attributes" : [ "object" ],
-    "id" : "79"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "81"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "38",
+    "range" : "22",
     "label" : {
       "IRI-based" : "isFamily",
       "undefined" : "family reason"
     },
-    "domain" : "20",
+    "domain" : "18",
     "comment" : {
       "undefined" : "Family reason flag data property."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "80"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "82"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "82",
+    "range" : "43",
     "label" : {
       "IRI-based" : "hasCountry",
       "undefined" : "country"
     },
-    "domain" : "20",
+    "domain" : "18",
     "comment" : {
       "undefined" : "Airport country,"
     },
-    "attributes" : [ "datatype" ],
-    "id" : "81"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "83"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "45",
+    "range" : "34",
     "label" : {
       "IRI-based" : "isBusiness",
       "undefined" : "business reasson"
     },
-    "domain" : "20",
+    "domain" : "18",
     "comment" : {
       "undefined" : "Business Reason flag data property."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "83"
-  }, {
-    "range" : "8",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "84"
   }, {
-    "range" : "8",
-    "domain" : "16",
+    "range" : "48",
+    "domain" : "47",
     "attributes" : [ "object", "anonymous" ],
     "id" : "85"
   }, {
+    "range" : "48",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "4",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedBy",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "20",
+    "range" : "18",
     "label" : {
       "IRI-based" : "evaluatedBy",
       "undefined" : "evaluator"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Traveller instance who filled the survey."
     },
-    "attributes" : [ "object" ],
-    "id" : "88"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "91"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -1351,77 +1375,77 @@
       "IRI-based" : "hasAirline",
       "undefined" : "airline"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Company to be rated on the survey."
     },
-    "attributes" : [ "object" ],
-    "id" : "89"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "92"
   }, {
-    "range" : "19",
-    "domain" : "26",
+    "range" : "17",
+    "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "90"
+    "id" : "93"
   }, {
-    "range" : "16",
-    "domain" : "15",
+    "range" : "49",
+    "domain" : "47",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "91"
+    "id" : "94"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountryLocation",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "87",
+    "range" : "45",
     "label" : {
       "IRI-based" : "hasCountryLocation",
       "undefined" : "Airport Country"
     },
-    "domain" : "12",
+    "domain" : "13",
     "comment" : {
       "undefined" : "Aiport country location."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "92"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "95"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "47",
+    "range" : "39",
     "label" : {
       "IRI-based" : "hasOfficialName",
       "undefined" : "name"
     },
-    "domain" : "12",
+    "domain" : "13",
     "comment" : {
       "undefined" : "Airport formal name."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "93"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "96"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "14",
+    "range" : "72",
     "label" : {
       "IRI-based" : "hasDestiny",
       "undefined" : "destiny"
     },
-    "domain" : "34",
+    "domain" : "31",
     "comment" : {
       "undefined" : "Destiny airport."
     },
-    "attributes" : [ "object" ],
-    "id" : "94"
+    "attributes" : [ "asymmetric", "object", "functional" ],
+    "id" : "97"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "range" : "86",
+    "range" : "90",
     "label" : {
       "IRI-based" : "hasComment",
       "undefined" : "comment"
     },
-    "domain" : "29",
+    "domain" : "26",
     "comment" : {
       "undefined" : "Comment or review summary on submited survey."
     },
-    "attributes" : [ "datatype" ],
-    "id" : "95"
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "98"
   } ]
 }
