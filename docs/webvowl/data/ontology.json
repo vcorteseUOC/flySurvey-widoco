@@ -16,10 +16,10 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "14",
@@ -97,10 +97,10 @@
     "id" : "59",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "56",
@@ -109,10 +109,10 @@
     "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "74",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "74",
     "type" : "owl:Class"
   }, {
     "id" : "33",
@@ -203,19 +203,6 @@
     "id" : "4",
     "superClasses" : [ "5" ]
   }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Origin",
-      "undefined" : "Origin Airport"
-    },
-    "comment" : {
-      "undefined" : "Origin airport of a trip."
-    },
-    "id" : "12",
-    "superClasses" : [ "13" ]
-  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Seat",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
     "instances" : 0,
@@ -229,6 +216,19 @@
     },
     "id" : "5",
     "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Origin",
+      "undefined" : "Origin Airport"
+    },
+    "comment" : {
+      "undefined" : "Origin airport of a trip."
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -480,6 +480,19 @@
     "id" : "59",
     "superClasses" : [ "7" ]
   }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Groceries",
+      "undefined" : "Food and beverages"
+    },
+    "comment" : {
+      "undefined" : "Food and beverages Survey Category."
+    },
+    "id" : "52",
+    "superClasses" : [ "7" ]
+  }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
     "instances" : 0,
@@ -503,19 +516,6 @@
       "undefined" : "Traveller information and details."
     },
     "id" : "18"
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Groceries",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Groceries",
-      "undefined" : "Food and beverages"
-    },
-    "comment" : {
-      "undefined" : "Food and beverages Survey Category."
-    },
-    "id" : "52",
-    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#InflightEntertainment",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -541,19 +541,6 @@
       "undefined" : "Date when the user submits the survey."
     },
     "id" : "76",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate",
-    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "FlightDate",
-      "undefined" : "Flight Date"
-    },
-    "comment" : {
-      "undefined" : "Date of the trip."
-    },
-    "id" : "74",
     "superClasses" : [ "28" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport",
@@ -597,6 +584,19 @@
       "undefined" : "Airport Information. Inferred tool decides if is a subinstance of Destination or Origin."
     },
     "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate",
+    "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightDate",
+      "undefined" : "Flight Date"
+    },
+    "comment" : {
+      "undefined" : "Date of the trip."
+    },
+    "id" : "74",
+    "superClasses" : [ "28" ]
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft",
     "baseIri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology",
@@ -951,7 +951,7 @@
     "comment" : {
       "undefined" : "Airline company name."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "0"
   }, {
     "range" : "5",
@@ -990,7 +990,7 @@
     "comment" : {
       "undefined" : "Data flag for recommend the trip."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "25"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown",
@@ -1004,7 +1004,7 @@
     "comment" : {
       "undefined" : "Data flown data property."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "27"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
@@ -1018,7 +1018,7 @@
     "comment" : {
       "undefined" : "Data property to verify if the traveller was a customer of the flight."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "30"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker",
@@ -1032,7 +1032,7 @@
     "comment" : {
       "undefined" : "Aircraft manufacturing company."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "32"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model",
@@ -1046,7 +1046,7 @@
     "comment" : {
       "undefined" : "Aircraft model."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "36"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating",
@@ -1060,7 +1060,7 @@
     "comment" : {
       "undefined" : "Overall rating of the submited survey or a specific survey category."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "37"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasPrice",
@@ -1074,7 +1074,7 @@
     "comment" : {
       "undefined" : "Seat price data property."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "41"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyCategory",
@@ -1102,7 +1102,7 @@
     "comment" : {
       "undefined" : "Traveller name"
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "50"
   }, {
     "range" : "7",
@@ -1126,7 +1126,7 @@
     "comment" : {
       "undefined" : "Leisure flag data property."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "54"
   }, {
     "range" : "7",
@@ -1155,7 +1155,7 @@
     "comment" : {
       "undefined" : "Submited Survey title."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "62"
   }, {
     "range" : "7",
@@ -1184,7 +1184,7 @@
     "comment" : {
       "undefined" : "Airport city,"
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "66"
   }, {
     "range" : "7",
@@ -1228,7 +1228,7 @@
     "comment" : {
       "undefined" : "Max raiting value for allowed on the survey or on a survey category."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "77"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin",
@@ -1242,7 +1242,7 @@
     "comment" : {
       "undefined" : "Origin airport."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "78"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
@@ -1256,7 +1256,7 @@
     "comment" : {
       "undefined" : "Aircraft asocciated with a trip and evaluated by the traveller."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "79"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
@@ -1270,7 +1270,7 @@
     "comment" : {
       "undefined" : "Trip instance to be evaluated."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "80"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown",
@@ -1284,7 +1284,7 @@
     "comment" : {
       "undefined" : "FLighting date."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "81"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily",
@@ -1298,7 +1298,7 @@
     "comment" : {
       "undefined" : "Family reason flag data property."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "82"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry",
@@ -1312,7 +1312,7 @@
     "comment" : {
       "undefined" : "Airport country,"
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "83"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness",
@@ -1326,7 +1326,7 @@
     "comment" : {
       "undefined" : "Business Reason flag data property."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "84"
   }, {
     "range" : "48",
@@ -1365,7 +1365,7 @@
     "comment" : {
       "undefined" : "Traveller instance who filled the survey."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "91"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline",
@@ -1379,7 +1379,7 @@
     "comment" : {
       "undefined" : "Company to be rated on the survey."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "92"
   }, {
     "range" : "17",
@@ -1403,7 +1403,7 @@
     "comment" : {
       "undefined" : "Aiport country location."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "95"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName",
@@ -1417,7 +1417,7 @@
     "comment" : {
       "undefined" : "Airport formal name."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "96"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny",
@@ -1431,7 +1431,7 @@
     "comment" : {
       "undefined" : "Destiny airport."
     },
-    "attributes" : [ "asymmetric", "object", "functional" ],
+    "attributes" : [ "object", "functional", "asymmetric" ],
     "id" : "97"
   }, {
     "iri" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment",
@@ -1445,7 +1445,7 @@
     "comment" : {
       "undefined" : "Comment or review summary on submited survey."
     },
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "98"
   } ]
 }
